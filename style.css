@@ -11,3 +11,9 @@ body{
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
