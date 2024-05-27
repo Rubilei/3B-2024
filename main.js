@@ -1,6 +1,6 @@
 //criando a passagem entre os botões ativos ao passar o mouse
 const botoes = document.querySelectorAll(".botao");
-console.log(botoes);
+
 for(let i=0; i <botoes.length;i++){
     botoes [i].onclick =function(){
         for(let j=0;j<botoes.length;j++){
@@ -8,6 +8,5 @@ for(let i=0; i <botoes.length;i++){
         }
 
         botoes[i].classList.add("ativo");
-    }
-    console.log()
+    }  
 }
