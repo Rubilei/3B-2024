@@ -73,8 +73,8 @@ border-radius: 0 0 40px 40px;
 .titulo-aba-conteudo-secundario{
     text-align: center;
     color: var(--verde);
-    /*text-transform: uppercase; (transforma o texto de minúsculo para caixa auta)*/
-    
+    text-transform: uppercase; /*(transforma o texto de minúsculo para caixa auta)*/
+    /*obs:se o texto já estiver em maiúsculo não utilize*/
 }
 
 /*Comando para executar o arredondamento dos botões*/
