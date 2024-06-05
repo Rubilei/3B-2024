@@ -77,15 +77,15 @@ border-radius: 0 0 40px 40px;
     /*obs:se o texto já estiver em maiúsculo não utilize*/
 }
 
-/*Comando para executar o arredondamento dos botões*/
+/*Comando colocar os botões lado a lado*/
 @media screen and (min-width: 768px){
         .botoes{
             display: flex;
         }
-        .botao:first-child{
-            border-radius: 40px 0 0 0;
+        .botao:first-child{  /*primeiro elemento*/
+            border-radius: 40px 0 0 0;/*Comando para executar o arredondamento dos botões*/
         }
-        .botao:last-child{
-            border-radius: 0 40px 0 0;   
+        .botao:last-child{  /*ultimo elemento*/
+            border-radius: 0 40px 0 0;/*Comando para executar o arredondamento dos botões*/   
         }
 }
