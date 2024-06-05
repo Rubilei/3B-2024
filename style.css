@@ -71,9 +71,9 @@ border-radius: 0 0 40px 40px;
     text-align: center;
 }
 .tutulo-aba-conteudo-secundario{
-    text-align: center;
     color: var(--verde);
     text-transform: uppercase; /*transforma o texto de minúsculo para caixa auta*/
+    text-align: center;
 }
 
 /*Comando para executar o arredondamento dos botões*/
