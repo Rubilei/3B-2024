@@ -76,6 +76,10 @@ border-radius: 0 0 40px 40px;
     text-transform: uppercase; /*(transforma o texto de minúsculo para caixa auta)*/
     /*obs:se o texto já estiver em maiúsculo não utilize*/
 }
+.contador{
+    font-size: 20px;
+    text-align: center;
+}
 
 /*Comando colocar os botões lado a lado*/
 @media screen and (min-width: 768px){
